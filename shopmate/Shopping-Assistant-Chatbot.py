@@ -7,7 +7,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 from telegram.request import HTTPXRequest
 
 # ------------------ BOT TOKEN ------------------
-TOKEN = "8300326403:AAEub9z5191n_bxyLzroSnPaooazlNsnBMY"  # ← Add your Bot Token here
+TOKEN = "BOT_TOKEN"  # ← Add your Bot Token here
 
 # ------------------ REQUEST CONFIG ------------------
 request = HTTPXRequest(connect_timeout=30, read_timeout=30)
@@ -161,3 +161,4 @@ if __name__ == "__main__":
     nest_asyncio.apply()
     import asyncio
     asyncio.run(main())
+
