@@ -1,6 +1,6 @@
 import os
 import sqlite3
-import nest_asyncio
+import asyncio
 import nltk
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
@@ -158,7 +158,5 @@ async def main():
 
 # ------------------ EXECUTION ------------------
 if __name__ == "__main__":
-    nest_asyncio.apply()
-    import asyncio
     asyncio.run(main())
 
