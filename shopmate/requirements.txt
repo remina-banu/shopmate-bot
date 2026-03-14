@@ -1,3 +1,5 @@
 python-telegram-bot
 nltk
 requests
+nest_asyncio
+httpx
